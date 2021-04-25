@@ -1,0 +1,2 @@
+.FloatingWrapper{position:fixed;top:0;left:0;width:100vw;height:120vh;background-color:rgba(0,0,0,.4);z-index:500}.FloatingBox{color:#2f3640;padding:20px;position:absolute;width:50vw;height:700px;top:0;left:0;background-color:#dcdde1;z-index:1000;border-radius:30px;-webkit-transform:translate(50%,2%);transform:translate(50%,2%);overflow:scroll}.floating_imagebox{width:300px;overflow:hidden;height:300px}
+/*# sourceMappingURL=main.14c28469.chunk.css.map */
