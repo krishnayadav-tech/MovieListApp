@@ -9,9 +9,9 @@ const Pagination = (props)=>{
         let list = [];
         for(let i=1;i<=totalPage;i++){
             if(i === props.pageinfo.curPage){
-                list.push(<li key={i} onClick={()=>changePage(i)} className="active waves-effect"><a>{i}</a></li>);
+                list.push(<li key={i} onClick={()=>changePage(i)} className="active page-item"><a>{i}</a></li>);
             }else{
-                list.push(<li key={i} onClick={()=>changePage(i)} className="waves-effect"><a>{i}</a></li>);
+                list.push(<li key={i} onClick={()=>changePage(i)} className="page-item"><a>{i}</a></li>);
             }
         }
         return list;
@@ -19,7 +19,7 @@ const Pagination = (props)=>{
     
 
     return (
-        <ul className="pagination">
+        <ul className="pagination2">
             {getPage()}
         </ul>
     )

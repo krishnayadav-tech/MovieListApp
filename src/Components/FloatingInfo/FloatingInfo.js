@@ -2,7 +2,9 @@ import './FloatingInfo.css'
 const FloatingInfo = (props)=>{
     return (
         <div onClick={()=>props.movieInfo.changeMovieInfo(null)} className="FloatingWrapper">
+            
             <div onClick={(e)=>{e.stopPropagation()}} className="FloatingBox">
+                <span onClick={()=>props.movieInfo.changeMovieInfo(null)} className="closeme"></span>
                 <div>
                     <h3>{props.movieInfo.movieInfo.Title}</h3>
                     <div className="floating_imagebox">
